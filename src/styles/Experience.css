@@ -1,0 +1,51 @@
+.experience-section {
+    height: 100vh;
+    background-color: #111827;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+  }
+  
+  .experience-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+  }
+  
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 60%;
+  }
+  
+  .timeline-item {
+    background-color: #1e293b;
+    padding: 20px 30px;
+    border-radius: 10px;
+    position: relative;
+    border-left: 4px solid #00adb5;
+  }
+  
+  .timeline-item h3 {
+    font-size: 1.5rem;
+    color: #00adb5;
+  }
+  
+  .timeline-item .role {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .timeline-item span {
+    font-size: 0.9rem;
+    color: #a0aec0;
+  }
+  
+  .tech-stack {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #00fff5;
+  }
+  

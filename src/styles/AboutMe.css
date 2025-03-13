@@ -1,0 +1,46 @@
+.about-me {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f172a;
+    color: white;
+  }
+  
+  .about-content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .about-photo img {
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid #00adb5;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #00adb5;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #00fff5;
+    transform: scale(1.05);
+  }
+  
