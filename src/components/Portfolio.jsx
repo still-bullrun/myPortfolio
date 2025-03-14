@@ -4,7 +4,7 @@ const Portfolio = () => {
   const [filter, setFilter] = useState('All');
 
   const projects = [
-    { title: 'Dating App', category: 'App', image: '/projects/dating-app.png', link: '#' },
+    { title: 'RingIQ|AI virtual Receptionist', category: 'App', image: 'ringiq.png', link: '#' },
     { title: 'ImageFree', category: 'Blockchain', image: '/projects/imagefree.png', link: '#' },
     { title: 'E-commerce Site', category: 'Site', image: '/projects/ecommerce.png', link: '#' },
     { title: 'Crypto Dashboard', category: 'Blockchain', image: '/projects/crypto-dashboard.png', link: '#' },

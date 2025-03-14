@@ -5,11 +5,11 @@ ChartJS.register(RadialLinearScale, PointElement, LineElement, Filler, Tooltip, 
 
 const Skills = () => {
   const data = {
-    labels: ['React', 'Node.js', 'Solidity', 'Laravel', 'Django', 'WordPress', 'Shopify'],
+    labels: ['React', 'Node.js', 'Angular', 'Laravel', 'Django', '.Net', 'Shopify'],
     datasets: [
       {
         label: 'Skill Level',
-        data: [90, 85, 75, 80, 70, 95, 80], 
+        data: [90, 95, 85, 85, 90, 80, 90], 
         backgroundColor: 'rgba(0, 173, 181, 0.3)',
         borderColor: '#00adb5',
         borderWidth: 2,

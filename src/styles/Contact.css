@@ -9,6 +9,15 @@
     gap: 20px;
   }
   
+  .contact-section {
+    height: 100vh;
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+  }
+  
+  
   .contact-icons a {
     text-decoration: none;
     color: #fff;

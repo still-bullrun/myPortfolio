@@ -1,6 +1,7 @@
-.hero-section {
+   .hero-section {
     height: 100vh;
-    background: linear-gradient(120deg, #1a1a2e, #16213e);
+    background: url('/public/background.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the image covers the entire section */
     color: white;
     display: flex;
     flex-direction: column;
@@ -8,8 +9,20 @@
     justify-content: center;
     position: relative;
     overflow: hidden;
-  }
+    font-family: 'Poppins', sans-serif; /* Apply custom font */
+  } 
   
+  /* .hero-section {
+    background: url('/public/background.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  } */
+
   #tsparticles {
     position: absolute;
     top: 0;
@@ -24,10 +37,18 @@
     font-weight: 700;
     margin-bottom: 10px;
     z-index: 1;
+    
+  }
+  h1 .name {
+    font-size: 4rem; /* Ensure the 'Vladyslav' name has the correct size */
+    font-weight: 600; /* Bold font weight for the name */
+    color: #fff; /* White color for 'Vladyslav' */
+    display: inline-block; /* Make sure it stays inline with the typed text */
   }
   
+  
   p {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     margin-bottom: 20px;
     z-index: 1;
   }
@@ -41,11 +62,12 @@
   .cta-buttons button {
     background-color: #00adb5;
     color: white;
-    padding: 10px 20px;
+    padding: 18px 35px;
     border: none;
-    border-radius: 8px;
+    border-radius: 56px;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3sease-in-out;
+    font-size: x-large;
   }
   
   .cta-buttons button:hover {

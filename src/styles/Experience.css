@@ -1,5 +1,5 @@
 .experience-section {
-    height: 100vh;
+    height: 138vh;
     background-color: #111827;
     color: white;
     display: flex;
@@ -16,8 +16,8 @@
   .timeline {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    width: 60%;
+    gap: 15px;
+    width: 90%;
   }
   
   .timeline-item {

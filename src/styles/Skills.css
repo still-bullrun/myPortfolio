@@ -1,6 +1,6 @@
 .skills-section {
     height: 100vh;
-    background-color: #111827;
+    background-color: #515869;
     color: white;
     display: flex;
     flex-direction: column;
@@ -9,8 +9,9 @@
   }
   
   .skills-section h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 40px;
+    font-family: ui-serif;
   }
   
   .radar-chart {

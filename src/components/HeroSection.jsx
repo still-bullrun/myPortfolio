@@ -18,17 +18,17 @@ const HeroSection = () => {
     <div className="hero-section">
       <Particles id="tsparticles" init={particlesInit} loaded={particlesLoaded} options={{ particles: { number: { value: 50 }, size: { value: 3 } }, interactivity: { events: { onHover: { enable: true, mode: 'repulse' } } } }} />
       <h1>
-        Vladyslav 
+      <span className="name">Vladyslav</span>
         <div className="typed-text">
           <Typed
-            strings={["Full-Stack Developer", "Blockchain Developer", "React Expert"]}
+            strings={["Full-Stack Developer", "AWS, Azure,GCP", "React Expert"]}
             typeSpeed={60}
             backSpeed={40}
             loop
           />
         </div>
       </h1>
-      <p>Crafting innovative web solutions</p>
+      
       <div className="cta-buttons">
         <button onClick={() => window.scrollTo({ top: 800, behavior: 'smooth' })}>Explore Projects</button>
         <button onClick={() => window.scrollTo({ top: 3000, behavior: 'smooth' })}>Hire Me</button>
