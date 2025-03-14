@@ -5,7 +5,7 @@ const Portfolio = () => {
 
   const projects = [
     { title: 'RingIQ|AI virtual Receptionist', category: 'App', image: 'ringiq.png', link: '#' },
-    { title: 'Learn Technical English Fast |Online Courses with Certificates', category: 'App', image: 'techlearn.png', link: '#' },
+    { title: 'Learn Technical English Fast |Online Courses with Certificates', category: 'App', image: 'techlearn.png', link: 'https://technicalenglish.com/en/home' },
     { title: 'E-commerce Site', category: 'Site', image: 'ecommer.png', link: '#' },
     { title: 'Casino betting site', category: 'site', image: 'betting.png', link: '#' },
     { title: 'Milk chocholate', category: 'MERN', image: 'Mern.PNG', link: 'https://slatemilk.com/' },
