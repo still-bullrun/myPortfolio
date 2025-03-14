@@ -39,7 +39,7 @@
     z-index: 1;
     
   }
-  h1 .name {
+.name {
     font-size: 4rem; /* Ensure the 'Vladyslav' name has the correct size */
     font-weight: 600; /* Bold font weight for the name */
     color: #fff; /* White color for 'Vladyslav' */

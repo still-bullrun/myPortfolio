@@ -1,47 +1,43 @@
 .contact-section {
-    text-align: center;
-    padding: 50px 0;
-  }
-  
-  .contact-icons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .contact-section {
-    height: 100vh;
-    background-color: #111827;
+    height: 60vh;
+    background-color: #0e265b;
     color: white;
     text-align: center;
     padding: 60px 0;
   }
   
+  .contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
   
-  .contact-icons a {
-    text-decoration: none;
-    color: #fff;
-    background-color: #1e1e1e;
-    padding: 15px;
-    border-radius: 12px;
+  .contact-grid {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .contact-card {
+    background-color: #1e293b;
+    padding: 30px 40px;
+    border-radius: 15px;
     transition: all 0.3s ease-in-out;
-    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
   }
   
-  .contact-icons a:hover {
-    background-color: #333;
-    transform: translateY(-5px);
+  .contact-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 255, 255, 0.3);
   }
   
-  .contact-icon {
-    font-size: 2rem;
-    margin-bottom: 8px;
+  .contact-card svg {
+    color: #00fff5;
+    margin-bottom: 10px;
   }
   
-  .contact-icons span {
-    font-size: 14px;
+  .contact-card p {
+    font-size: 1rem;
   }
   

@@ -17,8 +17,9 @@ const HeroSection = () => {
   return (
     <div className="hero-section">
       <Particles id="tsparticles" init={particlesInit} loaded={particlesLoaded} options={{ particles: { number: { value: 50 }, size: { value: 3 } }, interactivity: { events: { onHover: { enable: true, mode: 'repulse' } } } }} />
+      <span className="name">I am Vladyslav</span>
       <h1>
-      <span className="name">Vladyslav</span>
+      
         <div className="typed-text">
           <Typed
             strings={["Full-Stack Developer", "AWS, Azure,GCP", "React Expert"]}

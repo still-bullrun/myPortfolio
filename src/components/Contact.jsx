@@ -1,37 +1,38 @@
-import { FaTelegramPlane, FaLinkedin, FaEnvelope, FaDiscord } from 'react-icons/fa';
+import React from 'react';
+import { FaTelegramPlane, FaDiscord, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
   const contacts = [
     {
-      platform: 'Telegram',
-      icon: <FaTelegramPlane />,
-      link: 'https://t.me/your_username',
+      icon: <FaTelegramPlane size={40} />,
+      link: 'https://t.me/@stillbullrun',
+      platform: 'Telegram'
     },
     {
-      platform: 'LinkedIn',
-      icon: <FaLinkedin />,
-      link: 'https://www.linkedin.com/in/your-profile',
+      icon: <FaDiscord size={40} />,
+      link: 'https://discordapp.com/users/@sniper_bond',
+      platform: 'Discord'
     },
     {
-      platform: 'Email',
-      icon: <FaEnvelope />,
-      link: 'mailto:your_email@example.com',
+      icon: <FaEnvelope size={40} />,
+      link: 'mailto:still.bullrun@gmail.com',
+      platform: 'Gmail'
     },
     {
-      platform: 'Discord',
-      icon: <FaDiscord />,
-      link: 'https://discord.com/users/your_discord_id',
-    },
+      icon: <FaLinkedin size={40} />,
+      link: 'https://www.linkedin.com/in/your_profile',
+      platform: 'LinkedIn'
+    }
   ];
 
   return (
     <section className="contact-section">
       <h2>Contact Me</h2>
-      <div className="contact-icons">
+      <div className="contact-grid">
         {contacts.map((contact, index) => (
-          <a key={index} href={contact.link} target="_blank" rel="noopener noreferrer">
-            <div className="contact-icon">{contact.icon}</div>
-            <span>{contact.platform}</span>
+          <a key={index} href={contact.link} target="_blank" rel="noopener noreferrer" className="contact-card">
+            {contact.icon}
+            <p>{contact.platform}</p>
           </a>
         ))}
       </div>

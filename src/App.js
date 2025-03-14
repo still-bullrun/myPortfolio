@@ -12,17 +12,19 @@ import Services from './components/Services';
 import './styles/Services.css';
 import Contact from './components/Contact';
 import './styles/Contact.css';
-
+import Header from './components/Header';
+import './styles/Header.css';
 function App() {
   return (
     <div className="App">
-      <HeroSection />
-      <AboutMe />
-      <Skills />
+      <Header />
+      <section id="hero"><HeroSection /></section>
+      <section id="about"><AboutMe /></section>
+      <section id="skills"><Skills /></section>
       <Experience />
-      <Portfolio />
+      <section id="portfolio"><Portfolio /></section>
       <Services />
-      <Contact />
+      <section id="contact"><Contact /></section>
     </div>
   );
 }
